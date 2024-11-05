@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Fitness - Catálogo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="catalogo.html">Catálogo</a>
+        <a href="detalle-producto.html">Detalles</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+    <h1>Catálogo de Productos</h1>
+    <div class="product-list">
+        <!-- Producto: Omega 3 -->
+        <div class="product-item">
+            <h2>Omega 3</h2>
+            <p>Mejora la salud del corazón y las articulaciones.</p>
+            <p><strong>$ 50k</strong></p>
+            <button onclick="addToCart('Omega 3')">Añadir al carrito</button>
+        </div>
+        <!-- Producto: Vitamina C -->
+        <div class="product-item">
+            <h2>Vitamina C</h2>
+            <p>Potente antioxidante, fortalece el sistema inmune.</p>
+            <p><strong>$ 30k</strong></p>
+            <button onclick="addToCart('Vitamina C')">Añadir al carrito</button>
+        </div>
+        <!-- Producto: L-Arginina -->
+        <div class="product-item">
+            <h2>L-Arginina</h2>
+            <p>Aumenta la energía y mejora la circulación.</p>
+            <p><strong>$ 80k</strong></p>
+            <button onclick="addToCart('L-Arginina')">Añadir al carrito</button>
+        </div>
+        <!-- Producto: Tarrito Rojo -->
+        <div class="product-item">
+            <h2>Tarrito Rojo</h2>
+            <p>Refuerza y mantiene el bienestar diario.</p>
+            <p><strong>$ 20k</strong></p>
+            <button onclick="addToCart('Tarrito Rojo')">Añadir al carrito</button>
+        </div>
+        <div class="product-item">
+            <h2>Proteina</h2>
+            <p>Refuerza y mantiene el bienestar diario.</p>
+            <p><strong>$ 160k</strong></p>
+            <button onclick="addToCart('Proteina')">Añadir al carrito</button>
+        </div>
+        <div class="product-item">
+            <h2>Creatina</h2>
+            <p>Refuerza y mantiene el bienestar diario.</p>
+            <p><strong>$ 120k</strong></p>
+            <button onclick="addToCart('Creatina')">Añadir al carrito</button>
+        </div>
+        <!-- Producto: Zinc -->
+        <div class="product-item">
+            <h2>Zinc</h2>
+            <p>Esencial para la inmunidad y la salud de la piel.</p>
+            <p><strong>$ 60k</strong></p>
+            <button onclick="addToCart('Zinc')">Añadir al carrito</button>
+        </div>
+    </div>
+    <script>
+        function addToCart(product) {
+            alert(product + " ha sido añadido al carrito.");
+        }
+        
+    </script>
+<body style ="background-image: url(fulln.jpg);">
+</html>
+
